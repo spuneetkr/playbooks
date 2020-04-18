@@ -6,7 +6,7 @@
   become: true
   tasks:
       - name: creating user
-        user: name=manoj state=present
+        user: name=john state=present
 
       - name: Saying hello
         debug:
